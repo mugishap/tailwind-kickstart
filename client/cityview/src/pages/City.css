@@ -1,0 +1,45 @@
+*{
+transition: ease all .7s;
+margin: 0;
+padding: 0;
+}
+.card div{
+    width: 50%;
+    display: flex;
+    margin: 2vh;
+}
+.card{
+    display: flex;
+}
+.search{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+#search{
+    width: 50%;
+    height: 5vh;
+    background-color: rgba(96, 96, 112, 0.733);
+}
+.labels{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+margin: 10px;
+}
+#city-readonly{
+    width: 100%;
+}

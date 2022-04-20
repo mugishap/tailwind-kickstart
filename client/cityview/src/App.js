@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import Landing from './pages/Landing';
 import City from './pages/City';
+import Searched from './pages/Searched';
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,7 @@ function App() {
         <Routes>
           <Route path='/' element={<City />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/city/:name' element={<City />} />
+          <Route path='/searched' element={<Searched />} />
         </Routes>
       </BrowserRouter>
     </div>
